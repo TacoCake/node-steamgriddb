@@ -25,6 +25,10 @@ export interface SGDBImage {
     author: SGDBAuthor;
     language: string;
     notes: string|null;
+    width: number;
+    height: number;
+    upvotes: number;
+    downvotes: number;
 }
 
 export interface SGDBOptions {
