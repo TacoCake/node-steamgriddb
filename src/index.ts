@@ -6,6 +6,7 @@ export interface SGDBGame {
     name: string;
     types: string[];
     verified: boolean;
+    release_date: number;
 }
 
 export interface SGDBAuthor {
